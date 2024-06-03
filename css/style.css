@@ -104,6 +104,16 @@ ul ol {
 
 dt {
   font-weight: 700; }
+  .scrollable-section {
+    height: 100vh; /* Set the height to full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  @media (min-width: 768px) {
+    .scrollable-section {
+      overflow-y: hidden; /* Disable scrolling on larger devices */
+    }
+  }
 
 dd {
   margin-bottom: .5rem;
@@ -525,8 +535,7 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll;
- }
+  overflow-y: scroll; }
 
   .scrollable-section {
     height: 100vh; /* Set the height to full viewport height */
