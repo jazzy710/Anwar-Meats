@@ -116,10 +116,12 @@ address {
 
     .slider-text h1 {
         font-size: 6vw; /* Adjust font size for smaller screens */
+        font-weight: 700;
     }
 
     .slider-text h2 {
         font-size: 4vw; /* Adjust font size for smaller screens */
+        font-weight: 400;
     }
 }
 ol,
