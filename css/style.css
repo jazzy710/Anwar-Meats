@@ -10131,20 +10131,13 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    .scrollable-section {
-      height: 100vh; /* Set the height to full viewport height */
-      overflow-y: auto; /* Enable vertical scrolling */
-    }
-    
-    @media (min-width: 768px) {
-      .scrollable-section {
-        overflow-y: hidden; /* Disable scrolling on larger devices */
+    .scrolling-container {
+      overflow: auto;
+     }
+     
+     /* For mobile devices only */
+     @media screen and (max-width: 600px) {
+      .scrolling-container {
+      overflow-y: scroll;
       }
-    }
-    #home-section {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-  }
-  .home-slider .slider-item {
-      min-width: 100%; /* Ensure slider items take up full width */
-  }
+     }
