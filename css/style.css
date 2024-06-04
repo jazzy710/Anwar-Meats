@@ -10131,13 +10131,11 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-    .scrolling-container {
-      overflow: auto;
-     }
-     
-     /* For mobile devices only */
-     @media screen and (max-width: 600px) {
-      .scrolling-container {
-      overflow-y: scroll;
-      }
-     }
+    .home-slider {
+      overflow-x: auto; /* Horizontal scrollbar automatically appears when content overflows */
+      white-space: nowrap; /* Prevents slides from wrapping to new line */
+    }
+    
+    .slider-item {
+      display: inline-block; /* Display slide items in a row */
+    }
