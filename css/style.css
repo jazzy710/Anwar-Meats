@@ -90,6 +90,24 @@ address {
   font-style: normal;
   line-height: inherit; }
 
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel .owl-item {
+    width: 100%; /* Ensure each item takes full width */
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .owl-stage-outer {
+    width: 100%;
+}
 ol,
 ul,
 dl {
