@@ -108,6 +108,20 @@ address {
 .owl-carousel .owl-stage-outer {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .slider-item {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .slider-text h1 {
+        font-size: 6vw; /* Adjust font size for smaller screens */
+    }
+
+    .slider-text h2 {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+    }
+}
 ol,
 ul,
 dl {
