@@ -92,7 +92,7 @@ address {
 
   @media (max-width: 768px) {
     .slider-item {
-        height: 50vh; /* Adjust height for smaller screens */
+        height: 100vh; /* Adjust height for smaller screens */
     }
 
     .slider-text h1 {
