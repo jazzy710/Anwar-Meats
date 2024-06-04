@@ -115,13 +115,13 @@ address {
     }
 
     .slider-text h1 {
-        font-size: 6vw; /* Adjust font size for smaller screens */
+        font-size: 10vw; /* Adjust font size for smaller screens */
         font-weight: 700;
     }
 
     .slider-text h2 {
-        font-size: 4vw; /* Adjust font size for smaller screens */
-        font-weight: 400;
+        font-size: 8vw; /* Adjust font size for smaller screens */
+        font-weight: 500;
     }
 }
 ol,
