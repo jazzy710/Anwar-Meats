@@ -9301,11 +9301,7 @@ textarea.form-control {
 
 .ftco-no-pb {
   padding-bottom: 0 !important; }
-  @media (min-width: 992px) { /* Adjust the min-width value as needed for your "desktop" definition */
-    .ftco-no-pt {
-        padding-top: 53px !important;
-    }
-}
+
 .ftco-bg-dark {
   background: #3c312e; }
 
