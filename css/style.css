@@ -89,6 +89,7 @@ address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit; }
+
 ol,
 ul,
 dl {
@@ -103,7 +104,6 @@ ul ol {
 
 dt {
   font-weight: 700; }
-
 
 dd {
   margin-bottom: .5rem;
@@ -527,17 +527,6 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-  .scrollable-section {
-    height: 100vh; /* Set the height to full viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
-  }
-  
-  @media (min-width: 768px) {
-    .scrollable-section {
-      overflow-y: hidden; /* Disable scrolling on larger devices */
-    }
-  }
-  
 .container {
   width: 100%;
   padding-right: 15px;
@@ -10129,12 +10118,3 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-
-    .home-slider {
-      overflow-x: auto; /* Horizontal scrollbar automatically appears when content overflows */
-      white-space: nowrap; /* Prevents slides from wrapping to new line */
-    }
-    
-    .slider-item {
-      display: inline-block; /* Display slide items in a row */
-    }
